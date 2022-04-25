@@ -160,6 +160,10 @@ body {
 
 }
 
+.team-list {
+    background-color: var(--white-color);
+}
+
 .team-list .title {
    
     font-weight: 500;
