@@ -147,9 +147,12 @@ body {
     background-color: var(--accent-color);
 }
 
+.team-section {
+    background-color: var(--bcg-color-light);
+}
 
 .team {
-
+   
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -158,7 +161,7 @@ body {
 }
 
 .team-list .title {
-
+   
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -194,9 +197,15 @@ body {
     text-decoration: none;
 }
 
-.footer-contacts .address.link {
+.footer-contacts .address a {
     color: var(--white-color);
+    text-decoration: none;
+}
 
+.footer-contacts .address.link:hover,
+.footer-contacts .address.link:focus {
+    color: var(--accent-color);
+    text-decoration: none;
 }
 
 .portfolio {
